@@ -15,3 +15,17 @@ Create a Logistic Regression model, fit it to the data, and print the model's sc
 
 When working with data that is more linearly separable Logistic Regression Model seems to be a better fit. However, when working with more "real world"data it is difficult to find it to be linearly separable. In most cases it is a messy and with outliers.  Therefore, because the data that we are working with has a very large number of variables/features, I  believe that the Random Forest Classifier model will do much better than the  Logistic Regression Model. 
 
+Unscaled Logistic Regression Result: 
+
+![image-20210920212220433](C:\Users\franc\AppData\Roaming\Typora\typora-user-images\image-20210920212220433.png)
+
+Unscaled Random Forest Classifier Result:
+
+![image-20210920212338200](C:\Users\franc\AppData\Roaming\Typora\typora-user-images\image-20210920212338200.png)
+
+ As expected, Random Forest Classifier model did scored better than the Logistic Regression Model. However, the test score difference was not as significant as I had expected. 
+
+I expected scaling to improve the Logistic Regression scores but surprisingly they dropped slightly. Nonetheless, Random Forest Classifier model did improve on test score. 
+
+![image-20210920214320167](C:\Users\franc\AppData\Roaming\Typora\typora-user-images\image-20210920214320167.png)
+
