@@ -7,3 +7,11 @@ LendingClub is a peer-to-peer lending services company that allows individual in
 
 Use this data to create machine learning models to classify the risk level of given loans. Compare the Logistic Regression model and Random Forest Classifier.
 
+## Fit a Logistic Regression model and Random Forest Classifier model
+
+Create a Logistic Regression model, fit it to the data, and print the model's score. Do the same for a Random Forest Classifier. 
+
+**INITIAL PREDICTION:** 
+
+When working with data that is more linearly separable Logistic Regression Model seems to be a better fit. However, when working with more "real world" it is difficult to find it to be linearly separable.  Therefore, because the data that we are working with has a very large number of variables/features, I  believe that the Random Forest Classifier model will do much better than the  Logistic Regression Model. 
+
